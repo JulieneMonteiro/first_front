@@ -73,6 +73,12 @@ h6 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+     /* Largura máxima do conteúdo */
+    max-width: 1024px;
+
+    /* Centraliza */
+    margin: auto;
 }
 
 /***** Cabeçalho *****/
@@ -280,8 +286,8 @@ img.responsive {
     }
 }
 
-@media screen and (win-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+
     /***** CONTEÚDO PRINCIPAL *****/
     #wrap>main {
         flex-direction: row;
